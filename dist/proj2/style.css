@@ -1,0 +1,8 @@
+.brand-gradient{
+
+}
+.banner-holder{
+    background-image: url(img/banner.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
