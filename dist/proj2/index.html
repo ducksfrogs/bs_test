@@ -72,7 +72,7 @@
                     <div class="banner text-center text-white mt-5 mb-5 pt-5 pb-5">
                         <h1>Lorem ipsum </h1>
                         <p>dfadfdsfadsfafadfa</p>
-                        <a href="#" class="btn btn-primary">Subscribe for news letters</a>
+                        <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#subscribe-modal">Subscribe for news letters</a>
                     </div>
                 </div>
             </div>
@@ -80,6 +80,53 @@
     </section>
 
     <!-- Banner -->
+    <!-- subscribe modal-->
+    <div class="modal fade" id="subscribe-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header text-bg-primary">
+                    <h5 class="moda-title">Subscribe for newsletters</h5>
+                    <button 
+                        class="btn-close btn-close-white"
+                        type="button"
+                        data-bs-dissmiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="First Name" required>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="col-md-6">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="mb-2">
+                                    <input type="text" class="form-control form-control-sm" placeholder="email" required>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="d-grid">
+                                    <button
+                                        type="submit"
+                                        class="btn btn-success btn-sm"
+                                        >subscribe</button>
+
+                                </div>
+                            </div>
+                            
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- subscribe modal-->
 <!-- container -->
     <div class="container">
         hello blog
