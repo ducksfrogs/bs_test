@@ -1,3 +1,9 @@
 .navbar-brand img{
     width: 130px;
 }
+
+.subscribe{
+    background-image: url(img/type.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
